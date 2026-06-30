@@ -1,0 +1,6 @@
+D:/embed_project/bootloader/Middle/letter_shell/Log/log.c:87:6:logRegister	24	static
+D:/embed_project/bootloader/Middle/letter_shell/Log/log.c:112:6:logUnRegister	24	static
+D:/embed_project/bootloader/Middle/letter_shell/Log/log.c:131:6:logSetLevel	32	static
+D:/embed_project/bootloader/Middle/letter_shell/Log/log.c:155:13:logWriteBuffer	32	static
+D:/embed_project/bootloader/Middle/letter_shell/Log/log.c:189:6:logWrite	24	static
+D:/embed_project/bootloader/Middle/letter_shell/Log/log.c:220:6:logHexDump	56	static

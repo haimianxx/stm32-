@@ -1,0 +1,231 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Middle/letter_shell/CMakeFiles/Letter_shell.dir/./Log/log.c.obj"
+		},
+		{
+			"path" : "Middle/letter_shell/CMakeFiles/Letter_shell.dir/./Src/shell.c.obj"
+		},
+		{
+			"path" : "Middle/letter_shell/CMakeFiles/Letter_shell.dir/./Src/shell_cmd_list.c.obj"
+		},
+		{
+			"path" : "Middle/letter_shell/CMakeFiles/Letter_shell.dir/./Src/shell_companion.c.obj"
+		},
+		{
+			"path" : "Middle/letter_shell/CMakeFiles/Letter_shell.dir/./Src/shell_ext.c.obj"
+		},
+		{
+			"path" : "Middle/letter_shell/CMakeFiles/Letter_shell.dir/./shell_port.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"Middle/letter_shell/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SHELL_CFG_USER=\"shell_cfg_user.h\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "STM32F103xE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/embed_project/bootloader/Middle/letter_shell"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/embed_project/bootloader/Middle/letter_shell/Src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/embed_project/bootloader/Middle/letter_shell/Log"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/embed_project/bootloader/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/embed_project/bootloader/BSP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/embed_project/bootloader/BSP/Inc"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "BSP::@22b1fb5bb3c77ef0a0a2"
+		}
+	],
+	"id" : "Letter_shell::@6bb4481de36b23fcc1de",
+	"name" : "Letter_shell",
+	"paths" : 
+	{
+		"build" : "Middle/letter_shell",
+		"source" : "Middle/letter_shell"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Middle/letter_shell/Log/log.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Middle/letter_shell/Src/shell.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Middle/letter_shell/Src/shell_cmd_list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Middle/letter_shell/Src/shell_companion.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Middle/letter_shell/Src/shell_ext.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "Middle/letter_shell/shell_port.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

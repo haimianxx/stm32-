@@ -1,0 +1,188 @@
+[
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -x assembler-with-cpp -MMD -MP -g -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\gcc\\startup_stm32f103xe.s.obj -c D:\\embed_project\\bootloader\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\gcc\\startup_stm32f103xe.s",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\gcc\\startup_stm32f103xe.s",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\gcc\\startup_stm32f103xe.s.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\system_stm32f1xx.c.obj -c D:\\embed_project\\bootloader\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\system_stm32f1xx.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\system_stm32f1xx.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\system_stm32f1xx.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_spi.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_spi.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_spi.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_spi.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c.obj -c D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\syscalls.c.obj -c D:\\embed_project\\bootloader\\Drivers\\syscalls.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\syscalls.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\syscalls.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Drivers\\CMakeFiles\\STM32_Drivers.dir\\sysmem.c.obj -c D:\\embed_project\\bootloader\\Drivers\\sysmem.c",
+  "file": "D:\\embed_project\\bootloader\\Drivers\\sysmem.c",
+  "output": "Drivers\\CMakeFiles\\STM32_Drivers.dir\\sysmem.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o BSP\\CMakeFiles\\BSP.dir\\Src\\bsp_timer.c.obj -c D:\\embed_project\\bootloader\\BSP\\Src\\bsp_timer.c",
+  "file": "D:\\embed_project\\bootloader\\BSP\\Src\\bsp_timer.c",
+  "output": "BSP\\CMakeFiles\\BSP.dir\\Src\\bsp_timer.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o BSP\\CMakeFiles\\BSP.dir\\Src\\bsp_uart_fifo.c.obj -c D:\\embed_project\\bootloader\\BSP\\Src\\bsp_uart_fifo.c",
+  "file": "D:\\embed_project\\bootloader\\BSP\\Src\\bsp_uart_fifo.c",
+  "output": "BSP\\CMakeFiles\\BSP.dir\\Src\\bsp_uart_fifo.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o BSP\\CMakeFiles\\BSP.dir\\Src\\bsp_user_lib.c.obj -c D:\\embed_project\\bootloader\\BSP\\Src\\bsp_user_lib.c",
+  "file": "D:\\embed_project\\bootloader\\BSP\\Src\\bsp_user_lib.c",
+  "output": "BSP\\CMakeFiles\\BSP.dir\\Src\\bsp_user_lib.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o BSP\\CMakeFiles\\BSP.dir\\bsp.c.obj -c D:\\embed_project\\bootloader\\BSP\\bsp.c",
+  "file": "D:\\embed_project\\bootloader\\BSP\\bsp.c",
+  "output": "BSP\\CMakeFiles\\BSP.dir\\bsp.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o BSP\\CMakeFiles\\BSP.dir\\bsp_msg.c.obj -c D:\\embed_project\\bootloader\\BSP\\bsp_msg.c",
+  "file": "D:\\embed_project\\bootloader\\BSP\\bsp_msg.c",
+  "output": "BSP\\CMakeFiles\\BSP.dir\\bsp_msg.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Log\\log.c.obj -c D:\\embed_project\\bootloader\\Middle\\letter_shell\\Log\\log.c",
+  "file": "D:\\embed_project\\bootloader\\Middle\\letter_shell\\Log\\log.c",
+  "output": "Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Log\\log.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell.c.obj -c D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell.c",
+  "file": "D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell.c",
+  "output": "Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell_cmd_list.c.obj -c D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell_cmd_list.c",
+  "file": "D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell_cmd_list.c",
+  "output": "Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell_cmd_list.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell_companion.c.obj -c D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell_companion.c",
+  "file": "D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell_companion.c",
+  "output": "Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell_companion.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell_ext.c.obj -c D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell_ext.c",
+  "file": "D:\\embed_project\\bootloader\\Middle\\letter_shell\\Src\\shell_ext.c",
+  "output": "Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\Src\\shell_ext.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\shell_port.c.obj -c D:\\embed_project\\bootloader\\Middle\\letter_shell\\shell_port.c",
+  "file": "D:\\embed_project\\bootloader\\Middle\\letter_shell\\shell_port.c",
+  "output": "Middle\\letter_shell\\CMakeFiles\\Letter_shell.dir\\shell_port.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/APP -ID:/embed_project/bootloader/APP/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o APP\\CMakeFiles\\APP.dir\\Src\\uart_ota.c.obj -c D:\\embed_project\\bootloader\\APP\\Src\\uart_ota.c",
+  "file": "D:\\embed_project\\bootloader\\APP\\Src\\uart_ota.c",
+  "output": "APP\\CMakeFiles\\APP.dir\\Src\\uart_ota.c.obj"
+},
+{
+  "directory": "D:/embed_project/bootloader/build/Debug",
+  "command": "D:\\tool_chains\\STM32CubeCLT_1.21.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DSHELL_CFG_USER=\\\"shell_cfg_user.h\\\" -DSTM32F103xE -DUSE_HAL_DRIVER -ID:/embed_project/bootloader/APP -ID:/embed_project/bootloader/APP/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/embed_project/bootloader/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/embed_project/bootloader/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/embed_project/bootloader/Drivers/CMSIS/Include -ID:/embed_project/bootloader/BSP -ID:/embed_project/bootloader/BSP/Inc -ID:/embed_project/bootloader/Middle/letter_shell -ID:/embed_project/bootloader/Middle/letter_shell/Src -ID:/embed_project/bootloader/Middle/letter_shell/Log  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o APP\\CMakeFiles\\APP.dir\\main.c.obj -c D:\\embed_project\\bootloader\\APP\\main.c",
+  "file": "D:\\embed_project\\bootloader\\APP\\main.c",
+  "output": "APP\\CMakeFiles\\APP.dir\\main.c.obj"
+}
+]

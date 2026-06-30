@@ -1,0 +1,326 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "stm32.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"Drivers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "STM32_Drivers::@d4027ddec5a05e91d527"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BSP::@22b1fb5bb3c77ef0a0a2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Letter_shell::@6bb4481de36b23fcc1de"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "APP::@7f11f82cfc17dab8284d"
+		}
+	],
+	"id" : "stm32::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mcpu=cortex-m3  -T \"D:/embed_project/bootloader/STM32F103XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=stm32.map -Wl,--gc-sections -Wl,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "stm32",
+	"nameOnDisk" : "stm32.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc/startup_stm32f103xe.s.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/syscalls.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir/sysmem.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/BSP/CMakeFiles/BSP.dir/Src/bsp_timer.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/BSP/CMakeFiles/BSP.dir/Src/bsp_uart_fifo.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/BSP/CMakeFiles/BSP.dir/Src/bsp_user_lib.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/BSP/CMakeFiles/BSP.dir/bsp.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/BSP/CMakeFiles/BSP.dir/bsp_msg.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/Middle/letter_shell/CMakeFiles/Letter_shell.dir/Log/log.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/Middle/letter_shell/CMakeFiles/Letter_shell.dir/Src/shell.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/Middle/letter_shell/CMakeFiles/Letter_shell.dir/Src/shell_cmd_list.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/Middle/letter_shell/CMakeFiles/Letter_shell.dir/Src/shell_companion.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/Middle/letter_shell/CMakeFiles/Letter_shell.dir/Src/shell_ext.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/Middle/letter_shell/CMakeFiles/Letter_shell.dir/shell_port.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/APP/CMakeFiles/APP.dir/Src/uart_ota.c.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/APP/CMakeFiles/APP.dir/main.c.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

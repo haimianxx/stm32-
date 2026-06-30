@@ -1,0 +1,163 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Drivers",
+					"jsonFile" : "directory-Drivers-Debug-0ab3e5550521ce5b9b75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Drivers",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "BSP",
+					"jsonFile" : "directory-BSP-Debug-01d1a4265031c46cb17b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "BSP",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Middle/letter_shell",
+					"jsonFile" : "directory-Middle.letter_shell-Debug-106b042178d9f753477e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Middle/letter_shell",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "APP",
+					"jsonFile" : "directory-APP-Debug-e4dea46854c63abca722.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "APP",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "stm32",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "APP::@7f11f82cfc17dab8284d",
+					"jsonFile" : "target-APP-Debug-88d1e741fc4602befd8e.json",
+					"name" : "APP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "BSP::@22b1fb5bb3c77ef0a0a2",
+					"jsonFile" : "target-BSP-Debug-4f90b809c2d4a6c36f43.json",
+					"name" : "BSP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Letter_shell::@6bb4481de36b23fcc1de",
+					"jsonFile" : "target-Letter_shell-Debug-e69957089afbe74ee6f6.json",
+					"name" : "Letter_shell",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "STM32_Drivers::@d4027ddec5a05e91d527",
+					"jsonFile" : "target-STM32_Drivers-Debug-81e0310f97e7f99e23e0.json",
+					"name" : "STM32_Drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32-Debug-2c3e894ae6a0021ab8a6.json",
+					"name" : "stm32",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/embed_project/bootloader/build/Debug",
+		"source" : "D:/embed_project/bootloader"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

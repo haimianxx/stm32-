@@ -1,0 +1,44 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "compare": "c",
+        "limits": "c",
+        "new": "c",
+        "typeinfo": "c"
+    },
+    "editor.formatOnSave": true,
+    "[c]": {
+        "editor.formatOnSave": false,
+    },
+    "cortex-debug.variableUseNaturalFormat": true,
+    "cmake.configureOnOpen": true,
+    "cmake.options.advanced": {
+        "configurePreset": {
+            "statusBarVisibility": "visible",
+        },
+        "build": {
+            "statusBarVisibility": "hidden",
+        },
+        "launch": {
+            "statusBarVisibility": "hidden",
+        },
+        "debug": {
+            "statusBarVisibility": "hidden",
+        },
+    },
+    "VsCodeTaskButtons.showCounter": true,
+    "VsCodeTaskButtons.tasks": [
+        {
+            "label": "$(tools) Configure",
+            "task": "CMake: build",
+            "tooltip": "Run CMake build Task"
+        },
+        {
+            "label": "$(chip) Download Flash",
+            "task": "OpenOCD: flash",
+            "tooltip": "Run Flash Task"
+        },
+    ],
+    "Codegeex.RepoIndex": true,
+    "marscode.chatLanguage": "cn",
+}

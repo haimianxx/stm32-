@@ -1,0 +1,8 @@
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:26:13:ShellUart1Init	40	static
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:59:7:userShellWrite	16	static
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:74:7:userShellRead	24	static
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:92:6:USART1_IRQHandler	8	static
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:97:6:HAL_UART_RxCpltCallback	24	static
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:113:6:HAL_UART_ErrorCallback	32	static
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:125:6:userShellInit	8	static
+D:/embed_project/bootloader/Middle/letter_shell/shell_port.c:143:6:userShellTask	8	static

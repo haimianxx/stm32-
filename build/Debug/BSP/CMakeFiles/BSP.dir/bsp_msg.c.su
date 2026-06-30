@@ -1,0 +1,5 @@
+D:/embed_project/bootloader/BSP/bsp_msg.c:30:6:bsp_InitMsg	8	static
+D:/embed_project/bootloader/BSP/bsp_msg.c:44:6:bsp_PutMsg	16	static
+D:/embed_project/bootloader/BSP/bsp_msg.c:63:9:bsp_GetMsg	24	static
+D:/embed_project/bootloader/BSP/bsp_msg.c:95:9:bsp_GetMsg2	24	static
+D:/embed_project/bootloader/BSP/bsp_msg.c:126:6:bsp_ClearMsg	4	static

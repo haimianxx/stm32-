@@ -1,0 +1,6 @@
+D:/embed_project/bootloader/BSP/bsp.c:19:6:bsp_Init	8	static
+D:/embed_project/bootloader/BSP/bsp.c:78:13:SystemClock_Config	72	static
+D:/embed_project/bootloader/BSP/bsp.c:122:6:Error_Handler	16	static
+D:/embed_project/bootloader/BSP/bsp.c:149:6:bsp_RunPer10ms	4	static
+D:/embed_project/bootloader/BSP/bsp.c:164:6:bsp_RunPer1ms	4	static
+D:/embed_project/bootloader/BSP/bsp.c:178:6:bsp_Idle	4	static

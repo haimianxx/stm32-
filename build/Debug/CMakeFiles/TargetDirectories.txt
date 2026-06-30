@@ -1,0 +1,15 @@
+D:/embed_project/bootloader/build/Debug/CMakeFiles/stm32.dir
+D:/embed_project/bootloader/build/Debug/CMakeFiles/edit_cache.dir
+D:/embed_project/bootloader/build/Debug/CMakeFiles/rebuild_cache.dir
+D:/embed_project/bootloader/build/Debug/Drivers/CMakeFiles/STM32_Drivers.dir
+D:/embed_project/bootloader/build/Debug/Drivers/CMakeFiles/edit_cache.dir
+D:/embed_project/bootloader/build/Debug/Drivers/CMakeFiles/rebuild_cache.dir
+D:/embed_project/bootloader/build/Debug/BSP/CMakeFiles/BSP.dir
+D:/embed_project/bootloader/build/Debug/BSP/CMakeFiles/edit_cache.dir
+D:/embed_project/bootloader/build/Debug/BSP/CMakeFiles/rebuild_cache.dir
+D:/embed_project/bootloader/build/Debug/Middle/letter_shell/CMakeFiles/Letter_shell.dir
+D:/embed_project/bootloader/build/Debug/Middle/letter_shell/CMakeFiles/edit_cache.dir
+D:/embed_project/bootloader/build/Debug/Middle/letter_shell/CMakeFiles/rebuild_cache.dir
+D:/embed_project/bootloader/build/Debug/APP/CMakeFiles/APP.dir
+D:/embed_project/bootloader/build/Debug/APP/CMakeFiles/edit_cache.dir
+D:/embed_project/bootloader/build/Debug/APP/CMakeFiles/rebuild_cache.dir
